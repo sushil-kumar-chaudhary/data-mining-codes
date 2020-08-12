@@ -1,0 +1,33 @@
+frequent item set:
+4 Sup:4
+5 Sup:6
+3 Sup:5
+1 Sup:4
+4,5 Sup:4
+3,4 Sup:3
+3,5 Sup:5
+1,4 Sup:3
+1,5 Sup:4
+1,3 Sup:3
+3,4,5 Sup:3
+1,4,5 Sup:3
+1,3,5 Sup:3
+these are not closed item set As:
+ {  4  } -> {  4  5  }  
+ {  3  } -> {  3  5  }  
+ {  1  } -> {  1  5  }  
+ {  3  4  } -> {  3  4  5  }  
+ {  1  4  } -> {  1  4  5  }  
+ {  1  3  } -> {  1  3  5  }  
+closed_item_set:
+ 5
+ 4 5
+ 3 5
+ 1 5
+ 3 4 5
+ 1 4 5
+ 1 3 5
+maximal_frequent_item_set:
+ 1  3  5 
+ 1  4  5 
+ 3  4  5 
